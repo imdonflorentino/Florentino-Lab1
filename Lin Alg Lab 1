@@ -1,0 +1,38 @@
+## variable declaration
+
+Charmander = 15
+Pidgey = 11
+Sandshrew = 18
+Rattata = 5
+Abra = 14
+print(f" Charmander at level {Charmander}")
+print(f" Pidgey at level {Pidgey}")
+print(f" Sandshrew at level {Sandshrew}")
+print(f" Rattata at level {Rattata}")
+print(f" Abra at level {Abra}")
+ Charmander at level 15
+ Pidgey at level 11
+ Sandshrew at level 18
+ Rattata at level 5
+ Abra at level 14
+ # Reserves1 = ['Feebas', 'Magikarp', 'Unown']
+# for Reserves1 in Reserves1:
+#     print(Reserves1)
+Reserves1 = [{'Feebas', 'Magikarp', 'Unown'}]
+print('Output:\n')
+for Reserves1 in Reserves1 :
+    print(Reserves1)
+Output:
+
+{'Feebas', 'Magikarp', 'Unown'}
+d = "Unown"
+o = "Magikarp"
+n = "Feebas"
+party = ['Charmander', 'Pidgey', 'SandShrew', 'Rattata', 'Abra', ]
+party.sort()
+print(f"{party} + {d}")
+print(f"{party} + {o}")
+print(f"{party} + {n}")
+['Abra', 'Charmander', 'Pidgey', 'Rattata', 'SandShrew'] + Unown
+['Abra', 'Charmander', 'Pidgey', 'Rattata', 'SandShrew'] + Magikarp
+['Abra', 'Charmander', 'Pidgey', 'Rattata', 'SandShrew'] + Feebas
